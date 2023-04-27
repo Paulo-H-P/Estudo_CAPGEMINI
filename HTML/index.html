@@ -8,6 +8,7 @@
   </head>
   <body>
     <header>
+      <img src="https://via.placeholder.com/200" alt="teste" />
       <h1>
         Curriculo de estudos
         <span> nome </span>
@@ -30,26 +31,32 @@
         <p>experiencia profissional</p>
       </aside>
       <aside>
-        <table>
+        <table border="1">
           <caption>
             <h4>tabela de estudo</h4>
           </caption>
+          <thead>
+            <tr>
+              <th>Dias da Semana</th>
+            </tr>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+          </thead>
           <tbody>
             <tr>
               <td>manhã</td>
+              <td rowspan="2">html</td>
+              <td rowspan="2">css</td>
               <td>html</td>
               <td>css</td>
-              <td>html</td>
-              <td>css</td>
-              <td>js</td>
             </tr>
             <tr>
               <td>tarde</td>
-              <td>html</td>
-              <td>css</td>
-              <td>js</td>
-              <td>js</td>
-              <td>js</td>
+
+              <td colspan="3">js</td>
             </tr>
           </tbody>
         </table>
